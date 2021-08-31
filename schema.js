@@ -1,0 +1,14 @@
+const { gql } = require('apollo-server');
+
+const typeDefs = gql`
+  # Your schema will go here
+  type Query {
+        hello: String!
+    }
+
+`;
+
+module.exports = typeDefs;
+
+
+
